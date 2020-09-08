@@ -10,3 +10,10 @@ Now I have decided to completely change my occupation and try my hand at somethi
 
 Work with cutting edge technology and develop your development skills.
 
+#### Skills 
+* HTML/CSS
+* JAVASCRIPT
+#### Soft skills
+* Positivity 
+* Critical thinking
+* Motivation 
