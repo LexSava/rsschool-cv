@@ -1,2 +1,1 @@
-https://LexSava.github.io/rsschool-cv/
-
+https://LexSava.github.io/rsschool-cv/cv
