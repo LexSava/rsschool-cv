@@ -1,0 +1,105 @@
+.content {
+  margin: 0px auto;
+  width: 1020px;
+  position: relative;
+  font-family: "Source Sans Pro";
+}
+.left_block {
+  background: #f1c40f;
+  width: 35%;
+  position: absolute;
+  color: #34495e;
+  height: 1000px;
+}
+.right_block {
+  background: #34495e;
+  width: 65%;
+  position: absolute;
+  right: 0;
+  height: 1000px;
+}
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  padding: 50px 0;
+  border-radius: 50%;
+}
+.contact {
+  text-align: right;
+  padding-right: 30px;
+}
+.contact_container {
+  height: 35px;
+}
+.contact_icon {
+  vertical-align: middle;
+  width: 30px;
+}
+.contant_info {
+  display: inline-block;
+}
+.hobbie {
+  position: relative;
+  text-align: center;
+  margin-top: 20%;
+}
+.hobbie_icon {
+  width: 80px;
+}
+.hobbie_container_mtb {
+  position: absolute;
+  margin-left: 5%;
+}
+.hobbie_container_hiking {
+  margin-left: 55%;
+}
+.hobbie_container_kayak {
+  position: absolute;
+  margin-left: 10%;
+}
+.hobbie_container_fishing {
+  margin-left: 55%;
+}
+.text_info {
+  text-indent: 20px;
+}
+header {
+  margin: 8% 10% 8% 10%;
+  color: white;
+}
+header h1 {
+  height: 15px;
+}
+.right_block section {
+  margin-bottom: 5%;
+}
+.right_block li,
+li p {
+  color: #f1c40f;
+}
+.right_block h2 {
+  color: white;
+  margin-left: 5%;
+}
+.right_block ul {
+  line-height: 20px;
+  margin-left: 10%;
+}
+.education li {
+  line-height: 5px;
+}
+.right_block img {
+  vertical-align: middle;
+  width: 50px;
+}
+.new_belarus {
+  text-align: right;
+  margin-right: 15px;
+}
+.new_belarus img {
+  width: 40px;
+  margin: -5px;
+}
+
