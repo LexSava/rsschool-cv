@@ -1,105 +1,153 @@
-.content {
-  margin: 0px auto;
-  width: 1020px;
-  position: relative;
-  font-family: "Source Sans Pro";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
-.left_block {
-  background: #f1c40f;
-  width: 35%;
-  position: absolute;
-  color: #34495e;
-  height: 1000px;
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.right_block {
-  background: #34495e;
-  width: 65%;
-  position: absolute;
-  right: 0;
-  height: 1000px;
+:focus,
+:active {
+  outline: none;
 }
-.avatar {
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 180px;
-  padding: 50px 0;
-  border-radius: 50%;
 }
-.contact {
-  text-align: right;
-  padding-right: 30px;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
-.contact_container {
-  height: 35px;
+input,
+button,
+textarea {
+  font-family: inherit;
 }
-.contact_icon {
-  vertical-align: middle;
-  width: 30px;
+input::-ms-clear {
+  display: none;
 }
-.contant_info {
-  display: inline-block;
+button {
+  cursor: pointer;
 }
-.hobbie {
-  position: relative;
-  text-align: center;
-  margin-top: 20%;
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
 }
-.hobbie_icon {
-  width: 80px;
+a,
+a:visited {
+  text-decoration: none;
 }
-.hobbie_container_mtb {
-  position: absolute;
-  margin-left: 5%;
+a:hover {
+  text-decoration: none;
 }
-.hobbie_container_hiking {
-  margin-left: 55%;
+ul li {
+  list-style: none;
 }
-.hobbie_container_kayak {
-  position: absolute;
-  margin-left: 10%;
+img {
+  vertical-align: top;
 }
-.hobbie_container_fishing {
-  margin-left: 55%;
-}
-.text_info {
-  text-indent: 20px;
-}
-header {
-  margin: 8% 10% 8% 10%;
-  color: white;
-}
-header h1 {
-  height: 15px;
-}
-.right_block section {
-  margin-bottom: 5%;
-}
-.right_block li,
-li p {
-  color: #f1c40f;
-}
-.right_block h2 {
-  color: white;
-  margin-left: 5%;
-}
-.right_block ul {
-  line-height: 20px;
-  margin-left: 10%;
-}
-.education li {
-  line-height: 5px;
-}
-.right_block img {
-  vertical-align: middle;
-  width: 50px;
-}
-.new_belarus {
-  text-align: right;
-  margin-right: 15px;
-}
-.new_belarus img {
-  width: 40px;
-  margin: -5px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
 }
 
+/* ------------------------------------------------------------------------------------------------- */
+body {
+  width: 900px;
+  margin: 0 auto;
+  font-family: "Roboto Mono", monospace;
+}
+.header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  background-color: #ffa07a;
+}
+.header__information {
+  width: 70%;
+  height: 100%;
+}
+.header__information__name {
+  font-family: "Raleway", sans-serif;
+  width: 70%;
+  height: 40%;
+  margin: 0 auto;
+  margin-top: 5%;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding-top: 2.5%;
+}
+.header__information__profession {
+  width: max-content;
+  padding: 20px 40px;
+  margin: 0 auto;
+  margin-top: -30px;
+  background-color: #ffa07a;
+  font-size: 16px;
+  font-weight: 500;
+}
+.header__avatar {
+  width: 30%;
+  height: 100%;
+}
+.header__avatar__img {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+.social__networks {
+  width: 80%;
+  height: 20%;
+  margin: 0 auto;
+}
+.social__networks__ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social__networks__ul__li {
+}
+.social__networks__link {
+  display: flex;
+  color: black;
+  font-weight: 500;
+}
+.social__networks__link:hover {
+  color: #484848;
+  opacity: 0.6;
+}
+.social__networks__link__icon {
+  width: 30px;
+}
+.social__networks__link__text {
+  line-height: 2em;
+  margin-left: 10px;
+}
