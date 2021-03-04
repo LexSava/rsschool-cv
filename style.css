@@ -81,7 +81,7 @@ body {
 }
 .header {
   width: 100%;
-  height: 200px;
+  height: 180px;
   display: flex;
   background-color: #ffa07a;
 }
@@ -91,11 +91,11 @@ body {
 }
 .header__information__name {
   font-family: "Raleway", sans-serif;
-  width: 70%;
-  height: 40%;
+  width: 65%;
+  height: 35%;
   margin: 0 auto;
   margin-top: 5%;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -110,15 +110,16 @@ body {
   margin: 0 auto;
   margin-top: -30px;
   background-color: #ffa07a;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 }
 .header__avatar {
   width: 30%;
   height: 100%;
+  z-index: 100;
 }
 .header__avatar__img {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   display: block;
 }
@@ -139,15 +140,103 @@ body {
   display: flex;
   color: black;
   font-weight: 500;
+  font-size: 12px;
 }
 .social__networks__link:hover {
   color: #484848;
   opacity: 0.6;
 }
 .social__networks__link__icon {
-  width: 30px;
+  width: 25px;
 }
 .social__networks__link__text {
-  line-height: 2em;
+  line-height: 3em;
   margin-left: 10px;
+}
+.main {
+  display: flex;
+  height: 650px;
+}
+.main__left__side {
+  width: 70%;
+  height: 100%;
+}
+.main__right__side {
+  width: 30%;
+  background-color: rgb(127 125 122);
+  height: 100%;
+}
+.about__me {
+  margin-top: 55px;
+}
+.information__abou__me__head {
+  text-transform: uppercase;
+  display: block;
+  width: max-content;
+  border: 2px solid bisque;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: antiquewhite;
+  margin-left: 20px;
+}
+.about__me__head {
+}
+.about__me__text {
+  font-family: "Raleway", sans-serif;
+  padding: 3px 20px;
+  color: #fffaf4;
+}
+.contacts {
+}
+.contacts__phone {
+  font-family: "Roboto Mono", sans-serif;
+}
+.contacts__head {
+  margin-top: 15px;
+}
+.contacts__ul {
+  margin-left: 20px;
+  font-family: "Raleway", sans-serif;
+}
+.contacts__link {
+  color: #fffaf4;
+  line-height: 1.5em;
+}
+.contacts__link__icon {
+  width: 25px;
+  margin-right: 10px;
+}
+.contacts__ul__li {
+  margin-bottom: 5px;
+}
+.skills__head {
+  margin-top: 15px;
+}
+.skills__ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.skills__ul__li {
+  margin: 5px 10px;
+}
+.skills__ul__li__icon {
+  width: 40px;
+}
+.hobbies__head {
+  margin-top: 15px;
+}
+.hobbies__ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.hobbies__ul__li {
+  margin: 5px 10px;
+}
+.hobbies__ul__li__icon {
+  width: 40px;
 }
